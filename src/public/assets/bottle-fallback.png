@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='200' height='400' viewBox='0 0 200 400'>
+  <defs>
+    <linearGradient id='g' x1='0' x2='1' y1='0' y2='1'>
+      <stop offset='0%' stop-color='#7F1D1D'/>
+      <stop offset='100%' stop-color='#450A0A'/>
+    </linearGradient>
+  </defs>
+  <rect x='70' y='40' width='60' height='320' rx='8' fill='url(#g)'/>
+  <rect x='72' y='38' width='56' height='4' rx='2' fill='#C0C0C0'/>
+  <rect x='72' y='358' width='56' height='4' rx='2' fill='#C0C0C0'/>
+  <text x='100' y='215' font-family='Arial' font-weight='bold' font-size='18' fill='white' text-anchor='middle'>HYDRA</text>
+  <text x='100' y='235' font-family='Arial' font-size='9' fill='rgba(255,255,255,0.6)' text-anchor='middle'>5% ABV</text>
+</svg>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- BRAND: page title -->
+  <title>Hydra — Drink Smarter. Party Harder.</title>
+  <meta name="description" content="The first electrolyte-infused alcoholic beverage. Feel good tomorrow. Be first to try Hydra." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NAV
+  ════════════════════════════════════════════════════════════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="Hydra home">
+        <!-- BRAND: logo -->
+        <img src="assets/logo.svg" alt="Hydra" width="110" height="36" />
+      </a>
+      <a href="#interest-form" class="btn btn--outline btn--sm">Get Early Access</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <div class="hero__text">
+        <!-- BRAND: hero headline -->
+        <p class="hero__eyebrow">Now Recruiting Beta Testers</p>
+        <h1 class="hero__headline">
+          Drink Smarter.<br />
+          <span class="text-brand">Party Harder.</span>
+        </h1>
+        <!-- BRAND: hero subheadline -->
+        <p class="hero__sub">
+          Hydra is the world's first premium alcoholic beverage packed with electrolytes,
+          B-vitamins, and hydration science. Wake up feeling human.
+        </p>
+        <div class="hero__cta-group">
+          <a href="#interest-form" class="btn btn--primary btn--lg">
+            Be First to Try It
+          </a>
+          <a href="#why-hydra" class="btn btn--ghost btn--lg">Learn More ↓</a>
+        </div>
+      </div>
+
+      <div class="hero__canvas-wrap">
+        <!-- Three.js mounts here -->
+        <canvas id="bottle-canvas" width="480" height="560" aria-label="Interactive 3D Hydra can"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       WHY HYDRA  (Benefits)
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="benefits" id="why-hydra" aria-labelledby="benefits-title">
+    <div class="container">
+      <!-- BRAND: section heading -->
+      <h2 class="section-title" id="benefits-title">Why <span class="text-brand">Hydra?</span></h2>
+      <p class="section-sub">
+        We didn't reinvent the drink. We upgraded it.
+      </p>
+
+      <div class="benefits__grid">
+
+        <article class="benefit-card benefit-card--reveal">
+          <div class="benefit-card__icon" aria-hidden="true">⚡</div>
+          <!-- BRAND: benefit 1 -->
+          <h3 class="benefit-card__title">Electrolyte Formula</h3>
+          <p class="benefit-card__body">
+            Every can delivers sodium, potassium, and magnesium — the same minerals
+            your body loses when you drink. Built in, not bolted on.
+          </p>
+        </article>
+
+        <article class="benefit-card benefit-card--reveal">
+          <div class="benefit-card__icon" aria-hidden="true">🧬</div>
+          <!-- BRAND: benefit 2 -->
+          <h3 class="benefit-card__title">B-Vitamin Complex</h3>
+          <p class="benefit-card__body">
+            B3, B6, and B12 support energy metabolism so your body handles alcohol
+            more efficiently. Science-backed. Taste-tested.
+          </p>
+        </article>
+
+        <article class="benefit-card benefit-card--reveal">
+          <div class="benefit-card__icon" aria-hidden="true">🥊</div>
+          <!-- BRAND: benefit 3 -->
+          <h3 class="benefit-card__title">Low Sugar. High Vibe.</h3>
+          <p class="benefit-card__body">
+            Under 100 calories. No fake sweeteners. Clean, crisp, and sessionable —
+            because your morning matters as much as your night.
+          </p>
+        </article>
+
+        <article class="benefit-card benefit-card--reveal">
+          <div class="benefit-card__icon" aria-hidden="true">🍺</div>
+          <!-- BRAND: benefit 4 -->
+          <h3 class="benefit-card__title">5% ABV. All Day.</h3>
+          <p class="benefit-card__body">
+            Same alcohol content as your favorite hard seltzer. Different the morning
+            after. Hydra is built for people who don't quit early.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SOCIAL PROOF TICKER
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <!-- BRAND: ticker copy -->
+      <span>ELECTROLYTES</span><span>·</span>
+      <span>B-VITAMINS</span><span>·</span>
+      <span>5% ABV</span><span>·</span>
+      <span>FEEL GOOD TOMORROW</span><span>·</span>
+      <span>HYDRA</span><span>·</span>
+      <span>ELECTROLYTES</span><span>·</span>
+      <span>B-VITAMINS</span><span>·</span>
+      <span>5% ABV</span><span>·</span>
+      <span>FEEL GOOD TOMORROW</span><span>·</span>
+      <span>HYDRA</span><span>·</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       INTEREST FORM
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="form-section" id="interest-form" aria-labelledby="form-title">
+    <div class="container container--narrow">
+      <h2 class="section-title" id="form-title">Get <span class="text-brand">Early Access</span></h2>
+      <!-- BRAND: form intro copy -->
+      <p class="section-sub">
+        We're selecting 500 beta testers before our first drop. Tell us about yourself
+        and we'll reach out when it's time.
+      </p>
+
+      <form class="interest-form" id="interestForm" novalidate aria-live="polite">
+
+        <!-- Full Name -->
+        <div class="form-group">
+          <label class="form-label" for="full_name">Full Name <span aria-hidden="true">*</span></label>
+          <input
+            class="form-input"
+            type="text"
+            id="full_name"
+            name="full_name"
+            autocomplete="name"
+            placeholder="Alex Johnson"
+            maxlength="100"
+            required
+            aria-required="true"
+          />
+          <span class="form-error" id="full_name-error" aria-live="assertive"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address <span aria-hidden="true">*</span></label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            placeholder="alex@example.com"
+            maxlength="254"
+            required
+            aria-required="true"
+          />
+          <span class="form-error" id="email-error" aria-live="assertive"></span>
+        </div>
+
+        <!-- Willingness to Pay -->
+        <div class="form-group">
+          <fieldset>
+            <legend class="form-label">
+              What would you pay per can? <span aria-hidden="true">*</span>
+            </legend>
+            <div class="radio-grid">
+              <label class="radio-option">
+                <input type="radio" name="willingness_to_pay" value="under-5" />
+                <span class="radio-face">Under $5</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="willingness_to_pay" value="5-8" />
+                <span class="radio-face">$5–$8</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="willingness_to_pay" value="8-12" />
+                <span class="radio-face">$8–$12</span>
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="willingness_to_pay" value="12-plus" />
+                <span class="radio-face">$12+</span>
+              </label>
+            </div>
+            <span class="form-error" id="wtp-error" aria-live="assertive"></span>
+          </fieldset>
+        </div>
+
+        <!-- Drink Context -->
+        <div class="form-group">
+          <fieldset>
+            <legend class="form-label">
+              Where would you drink Hydra? <span aria-hidden="true">*</span>
+              <span class="form-hint">(select all that apply)</span>
+            </legend>
+            <div class="checkbox-grid">
+              <label class="checkbox-option">
+                <input type="checkbox" name="drink_context" value="bars" />
+                <span class="checkbox-face">Bars</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="drink_context" value="parties" />
+                <span class="checkbox-face">Parties</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="drink_context" value="home" />
+                <span class="checkbox-face">At Home</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="drink_context" value="events" />
+                <span class="checkbox-face">Events</span>
+              </label>
+              <label class="checkbox-option">
+                <input type="checkbox" name="drink_context" value="tailgates" />
+                <span class="checkbox-face">Tailgates</span>
+              </label>
+            </div>
+            <span class="form-error" id="context-error" aria-live="assertive"></span>
+          </fieldset>
+        </div>
+
+        <!-- Referral Source (optional) -->
+        <div class="form-group">
+          <label class="form-label" for="referral_source">
+            How did you hear about us?
+            <span class="form-hint">(optional)</span>
+          </label>
+          <input
+            class="form-input"
+            type="text"
+            id="referral_source"
+            name="referral_source"
+            placeholder="Instagram, friend, bar, etc."
+            maxlength="200"
+          />
+        </div>
+
+        <!-- Age Confirmation -->
+        <div class="form-group form-group--check">
+          <label class="checkbox-option checkbox-option--lg">
+            <input
+              type="checkbox"
+              id="age_confirmed"
+              name="age_confirmed"
+              required
+              aria-required="true"
+            />
+            <!-- BRAND: age gate copy -->
+            <span class="checkbox-face">
+              I confirm that I am 21 years of age or older. <span aria-hidden="true">*</span>
+            </span>
+          </label>
+          <span class="form-error" id="age-error" aria-live="assertive"></span>
+        </div>
+
+        <!-- Submit -->
+        <button class="btn btn--primary btn--full btn--lg" type="submit" id="submitBtn">
+          <span class="btn__label">Claim My Spot</span>
+          <span class="btn__spinner" aria-hidden="true" hidden></span>
+        </button>
+
+        <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+
+      </form>
+
+      <!-- Success state (hidden until submission) -->
+      <div class="form-success" id="formSuccess" hidden aria-live="polite">
+        <div class="form-success__icon" aria-hidden="true">✓</div>
+        <!-- BRAND: success message -->
+        <h3 class="form-success__title">You're on the list.</h3>
+        <p class="form-success__body">
+          We'll hit your inbox when beta access opens. Tell a friend — 500 spots go fast.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <img src="assets/logo.svg" alt="Hydra" class="footer__logo" width="80" height="26" />
+      <!-- BRAND: legal disclaimer — confirm with team before launch -->
+      <p class="footer__legal">
+        DRINK RESPONSIBLY. Must be 21 or older to purchase or consume alcoholic beverages.
+        Do not drink and drive. Hydra is not a substitute for medical rehydration therapy.
+        © 2025 Hydra Beverages. All rights reserved.
+      </p>
+      <p class="footer__sub">
+        Your information is stored securely and will never be shared or sold.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SCRIPTS
+  ════════════════════════════════════════════════════════════════ -->
+  <!-- Three.js r128 via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" crossorigin="anonymous"></script>
+  <!-- GSAP 3 + ScrollTrigger via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    crossorigin="anonymous"></script>
+
+  <script src="bottle.js"></script>
+  <script src="form.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

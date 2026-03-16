@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 44" fill="none">
+  <!-- BRAND: logo mark + wordmark -->
+  <!-- Drop glyph (stylized H / water drop) -->
+  <path d="M8 6 L8 22 L16 22 L16 6 M8 14 L16 14 M20 6 L20 22" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wordmark -->
+  <text x="30" y="27" font-family="Inter, system-ui, sans-serif" font-weight="800" font-size="22" fill="#F9FAFB" letter-spacing="1">HYDRA</text>
+  <!-- Tagline dot -->
+  <circle cx="148" cy="21" r="3" fill="#EF4444"/>
+</svg>
