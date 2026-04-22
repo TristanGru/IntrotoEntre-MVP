@@ -7,7 +7,7 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_KEY
 );
 
-const VALID_WTP = ['under-5', '5-8', '8-12', '12-plus'];
+const VALID_WTP = ['under-3', '3-4', '4-5', '5-6', 'over-6'];
 const VALID_CONTEXT = ['bars', 'parties', 'home', 'events', 'tailgates'];
 
 function hashIp(ip) {
