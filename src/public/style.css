@@ -154,6 +154,7 @@ fieldset { border: none; }
   padding-inline: clamp(1.25rem, 5vw, 3rem);
 }
 .nav__logo { display: flex; align-items: center; }
+.nav__logo img { filter: invert(1); }
 
 /* ─── Hero ───────────────────────────────────────────────────── */
 .hero {
@@ -502,7 +503,7 @@ fieldset { border: none; }
   padding: 3rem 0 2.5rem;
   text-align: center;
 }
-.footer__logo { margin: 0 auto 1.5rem; opacity: 0.7; }
+.footer__logo { margin: 0 auto 1.5rem; opacity: 0.7; filter: invert(1); }
 .footer__legal {
   font-size: 0.75rem;
   color: var(--clr-text-subtle);
